@@ -10,7 +10,7 @@ class Grade {
 
 
     getData( student , course , date ){
-        let studentData = {
+         this.data = {
             student,
             course,
             date
