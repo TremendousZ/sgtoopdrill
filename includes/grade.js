@@ -10,7 +10,7 @@ class Grade {
 
     gradeRoulette() {
         let randomGrade = Math.floor(Math.random * 100);
-        this.gradeNumber = randomGrade;
+        return randomGrade;
     }
 
     letterGrade( number ){
